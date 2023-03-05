@@ -21,8 +21,8 @@ p {
 }
 
 .img-header {
-  width: auto;
-  margin: 0 30%;
+  width: 20%;
+  margin: 0 40%;
 }
 
 body {
@@ -36,9 +36,110 @@ main {
 
 .main-box {
   padding-top: 30px;
-  padding-bottom: 400px;
+  padding-bottom: 60px;
 }
 
 footer {
   margin: 5% 25%;
+  font-size: 12px;
+}
+
+/*---------------- food images ---------------*/
+
+.food-images img {
+  width: 27%;
+}
+
+.food-images {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+/* -------------- containers ----------------------*/
+
+.container-1 {
+  margin: 50px 8%;
+  flex-grow: 2;
+  flex-direction: row;
+  display: flex;
+  gap: 20px;
+  column-gap: 30px;
+}
+
+.container-1 div {
+  margin: 0px 0px;
+}
+
+.container-1 p {
+  text-align: left;
+  font-size: 12px;
+}
+
+/*-----------------container-2------------------------*/
+
+.container-2,
+.container-3,
+.container-4 {
+  margin: 10px 8%;
+  flex-grow: 2;
+  flex-direction: row;
+  display: flex;
+  gap: 50px;
+}
+
+.container-2 div,
+.container-3 div,
+.container-4 div {
+  justify-content: center;
+}
+
+.container-2 h1,
+.container-4 h1 {
+  font-size: 26px;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.container-3 h1 {
+  text-align: right;
+  padding-top: 20px;
+  font-size: 26px;
+}
+
+.container-2 img,
+.container-3 img,
+.container-4 img {
+  width: 300px;
+}
+
+.container-2 p,
+.container-4 p {
+  text-align: left;
+  font-size: 12px;
+}
+
+.container-3 p {
+  text-align: right;
+  font-size: 12px;
+}
+
+.container-2 button,
+.container-4 button {
+  background-color: var(--main-color);
+  border: none;
+  padding: 15px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.container-3 button {
+  background-color: var(--main-color);
+  border: none;
+  padding: 15px 20px;
+  margin-left: 210px;
+  margin-top: 10px;
+  cursor: pointer;
 }

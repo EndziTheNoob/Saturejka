@@ -1,18 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Playfair+Display:700&display=swap&subset=latin-ext');
 
+:root {
+  --main-color: #FFEFEF;
+  --second-color: #ffffff;
+}
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
 }
 
 h1,
-h2,
-p {
+h2 {
   font-family: 'Playfair Display', serif;
   text-align: center;
 }
 
-img-header {
-  width: 100%;
+p {
   text-align: center;
+}
+
+.img-header {
+  width: auto;
+  margin: 0 30%;
+}
+
+body {
+  background-color: var(--main-color);
+}
+
+main {
+  background-color: var(--second-color);
+  margin: 30px 20%;
+}
+
+.main-box {
+  padding-top: 30px;
+  padding-bottom: 400px;
+}
+
+footer {
+  margin: 5% 25%;
 }

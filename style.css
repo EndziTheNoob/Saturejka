@@ -6,7 +6,13 @@ html {
 }
 
 h1,
-h2 {
+h2,
+p {
   font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+img-header {
+  width: 100%;
   text-align: center;
 }
